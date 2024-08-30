@@ -28,6 +28,7 @@ class PythonOrgSearch(unittest.TestCase):
         main_page.click_search_button()
         time.sleep(1)
         main_page.search_text_element = "test"
+        main_page.enter_search_string()
         time.sleep(1)
         main_page.submit_enter_button()
         time.sleep(4)
@@ -47,6 +48,7 @@ class PythonOrgSearch(unittest.TestCase):
         main_page.click_search_button()
         time.sleep(1)
         main_page.search_text_element = "garbage"
+        main_page.enter_search_string()
         time.sleep(1)
         main_page.submit_enter_button()
         time.sleep(4)
