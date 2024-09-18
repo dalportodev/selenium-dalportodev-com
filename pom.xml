@@ -7,7 +7,7 @@
   <dependencies>
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-java</artifactId>
+      <artifactId>selenium-python</artifactId>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
