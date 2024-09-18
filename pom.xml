@@ -7,7 +7,7 @@
   <dependencies>
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-python</artifactId>
+      <artifactId>selenium-java</artifactId>
       <version>4.24.0</version>
     </dependency>
     <dependency>
